@@ -10,22 +10,47 @@
     right: 10px;
 }
 
+.upt-navbar-header {
+	height: 70px;
+}
+
 .upt-navbar .upt-navbar-container {
+	height: 72px;
 	border-bottom: 2px solid orange;
 }
 
 .brand-logo-wrapper {
-	line-height: 70px;
 	margin-left: 20px;
 	padding: 10px 0;
+    position: relative;
+    display: table;
+}
+
+.brand-logo-wrapper .logo-link, .brand-logo-wrapper .upt-anniversary-icon, .brand-logo-wrapper .years {
+	display: table-cell;
+	vertical-align: bottom;
 }
 
 .brand-logo-wrapper .logo {
-	width: 59px;
+	width: 70px;
+	padding-right: 17px;
+}
+
+.upt-anniversary-icon {
+	color: #f48631;
+	font-size: 18px;
+}
+
+.years {
+	padding-right: 10px;
+	color: #545050;
+	text-align: center;
+	font-weight: 600;	
 }
 
 .brand-logo-wrapper .logo-link {
 	padding: 0;
+	height: auto !important;
 }	
 
 .navbar-link {
