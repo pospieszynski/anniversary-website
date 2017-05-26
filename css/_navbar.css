@@ -1,0 +1,57 @@
+.upt-navbar {
+	height: 70px;
+}
+
+.upt-navbar-toggle {
+	margin: 0;
+	position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+}
+
+.upt-navbar .upt-navbar-container {
+	border-bottom: 2px solid orange;
+}
+
+.brand-logo-wrapper {
+	line-height: 70px;
+	margin-left: 20px;
+	padding: 10px 0;
+}
+
+.brand-logo-wrapper .logo {
+	width: 59px;
+}
+
+.brand-logo-wrapper .logo-link {
+	padding: 0;
+}	
+
+.navbar-link {
+	font-family: Roboto, sans-serif;
+	line-height: 70px !important;
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+	cursor: pointer;
+}
+
+.navbar-link:hover {
+	background: rgba(215, 215, 215, 0.65) !important
+}
+
+@media(max-width:767px) { 
+	.navbar-link {
+		border-bottom: 1px solid rgb(167, 160, 157);
+		padding: 0 !important;
+		margin: 0 7%;
+		font-weight: 900;
+	}
+	#links-list li:last-child .navbar-link {
+		border-bottom: none;
+	}
+	.brand-logo-wrapper {
+		margin-left: 7px !important;
+	}
+}
+
