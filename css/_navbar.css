@@ -63,17 +63,12 @@
 	cursor: pointer;
 }
 
-#links-list {
-	background: #f8f8f8;
-}
-
 .navbar-link:hover {
 	background: rgba(215, 215, 215, 0.65) !important
 }
 
 @media(max-width:767px) { 
 	.navbar-link {
-		background: white;
 		border-bottom: 1px solid rgba(167, 160, 157, 0.35);
 		padding: 0 20px !important;
 		font-weight: 900;
@@ -91,6 +86,7 @@
 		padding: 0;
 	}
 	#links-list {
+		background: white;
 		margin: 2px 0 0;
 	}
 }
