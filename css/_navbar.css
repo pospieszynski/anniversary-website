@@ -1,5 +1,7 @@
 .upt-navbar {
-	height: 70px;
+	height: 72px;
+    margin-bottom: 0;
+    border: none !important;
 }
 
 .upt-navbar-toggle {
@@ -20,7 +22,7 @@
 }
 
 .brand-logo-wrapper {
-	margin-left: 20px;
+	margin-left: 10px;
 	padding: 10px 0;
     position: relative;
     display: table;
