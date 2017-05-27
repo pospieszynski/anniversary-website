@@ -11,14 +11,14 @@ html, body {
 }
 
 #upt-content {
-	padding-bottom: 10rem;
+	padding-bottom: 20rem;
 }
 
 #upt-footer {
 	position: absolute;
 	bottom: 0;
 	width: 100%;
-	height: 10rem; 
+	height: 20rem; 
 	background: #222f38;
 }	
 
