@@ -1,0 +1,41 @@
+.carousel-img {
+	height: 290px !important;
+	margin: auto;
+	border-radius: 3px;
+}
+
+.upt-carousel {
+	padding: 20px 0;
+	margin-bottom: 40px;
+	position: relative;
+	border-bottom: 2px solid #e7e7e7;
+}
+
+.upt-carousel-bg {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	z-index: -2;
+	opacity: .4;
+}
+
+.upt-carousel:hover .upt-carousel-bg {
+	opacity: .7;
+}
+
+.upt-carousel-bg .blue, .upt-carousel-bg .yellow, .upt-carousel-bg .red {
+	height: 330px;
+}
+
+.upt-carousel-bg .blue{
+	background: rgba(0, 0, 255, 0.13);
+}
+
+.upt-carousel-bg .yellow {
+	background: rgba(255, 255, 0, 0.22);
+} 
+
+.upt-carousel-bg .red {
+	background: rgba(255, 0, 0, 0.06);
+}
