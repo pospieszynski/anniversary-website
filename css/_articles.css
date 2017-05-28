@@ -2,6 +2,10 @@
 	margin-bottom: 6rem;
 }
 
+.article-heading--bigger-margin-top {
+	margin-top: 75px;
+}
+
 .article-heading .article-heading__title {
 	font-weight: 600;
 }
