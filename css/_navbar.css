@@ -28,7 +28,11 @@
     display: table;
 }
 
-.brand-logo-wrapper .logo-link, .brand-logo-wrapper .upt-anniversary-icon, .brand-logo-wrapper .years {
+.brand-logo-wrapper .upt-anniversary-info {
+	text-align: center;
+}
+
+.brand-logo-wrapper .logo-link, .brand-logo-wrapper .upt-anniversary-info {
 	display: table-cell;
 	vertical-align: bottom;
 }
@@ -44,10 +48,11 @@
 }
 
 .years {
-	padding-right: 10px;
 	color: #545050;
 	text-align: center;
 	font-weight: 600;	
+    margin: 0;
+    font-size: 1.5rem;
 }
 
 .brand-logo-wrapper .logo-link {

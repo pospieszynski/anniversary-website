@@ -17,7 +17,7 @@
 	bottom: 0;
 	width: 100%;
 	z-index: -2;
-	opacity: .4;
+	opacity: .2;
 	transition: opacity .4s ease-in-out;
 }
 
