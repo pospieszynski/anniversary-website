@@ -22,5 +22,14 @@ html, body {
 	background: #222f38;
 }	
 
+@media(max-width: 999px) { 
+	#upt-footer {
+		height: 500px;
+	}
+	#upt-content {
+	padding-bottom: 500px;
+	}
+
+}
 
 
