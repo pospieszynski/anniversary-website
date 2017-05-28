@@ -1,0 +1,23 @@
+.article-heading {
+	margin-bottom: 5rem;
+}
+
+.article-heading .article-heading__title {
+	font-weight: 600;
+}
+
+.highlight {
+	color: #f48631;
+}
+
+.article-content {
+	margin-bottom: 9rem;
+	padding: 0 15px;
+    border-left: 1px solid rgba(72, 72, 72, 0.2);
+}
+
+.article-content p {
+	font-size: 18px;
+	color: #484848;
+	line-height: 3rem;
+}
