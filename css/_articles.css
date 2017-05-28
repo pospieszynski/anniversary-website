@@ -1,5 +1,5 @@
 .article-heading {
-	margin-bottom: 5rem;
+	margin-bottom: 6rem;
 }
 
 .article-heading .article-heading__title {
@@ -20,4 +20,8 @@
 	font-size: 18px;
 	color: #484848;
 	line-height: 3rem;
+}
+
+.date {
+	font-size: 28px;
 }
