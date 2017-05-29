@@ -1,0 +1,61 @@
+#upt-footer {
+	color: #cbcdce !important;
+	background: #f8f8f8;
+	padding: 25px 60px;
+	border-top: 3px solid orange;
+}
+
+.footer-links-list {
+	list-style-type: none;
+	color: white;
+	padding: 0;
+}
+
+.footer-links-list .footer-links-list__item {
+	line-height: 35px;
+	overflow: hidden;
+	padding: 10px 0;
+	border-bottom: 1px solid #505557;
+}
+
+.footer-links-list a {
+	color: #484848;
+}
+
+.upt-footer__header {
+	margin: 0 0 10px;
+	color: #337ab7;
+}
+
+.footer-link-logo {
+	height: 35px;
+	margin: 0;
+	float: right;
+}
+
+.footer-topic-reminder__logo {
+	width: 80px;
+    display: block;
+    margin: auto;
+}
+
+.footer-topic-reminder__caption {
+	color: #484848;
+	margin: auto;
+	padding: 10px;
+	text-align: center;
+	font-style: italic;	
+}
+
+.highlight--footer {
+	font-size: 22px;
+	font-weight: 500;
+}
+
+
+@media(max-width: 999px) { 
+	.footer-topic-reminder__logo {
+		margin-top: 50px;
+	}
+
+}
