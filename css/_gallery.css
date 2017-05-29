@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+.mfp-title {
+  display: none !important;
+}
+
 .upt-gallery .upt-gallery__item {
   display: inline-block;
   overflow: hidden;
@@ -35,4 +39,10 @@
 .load-more-btn-wrapper {
   text-align: center;
   margin: 20px; 
+}
+
+ @media only screen and (max-width : 480px) {
+  .upt-gallery .upt-gallery__item {
+    width: 40%;
+  }
 }
