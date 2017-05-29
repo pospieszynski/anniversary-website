@@ -1,5 +1,5 @@
 .carousel-img {
-	height: 350px !important;
+	height: 325px !important;
 	margin: auto;
 	border-radius: 3px;
 }
@@ -26,7 +26,7 @@
 }
 
 .upt-carousel-bg .blue, .upt-carousel-bg .yellow, .upt-carousel-bg .red {
-	height: 390px;
+	height: 365px;
 }
 
 .upt-carousel-bg .blue{
